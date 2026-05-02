@@ -39,12 +39,12 @@ This codebase extends the original OpenFedLLM implementation with:
 ### 2. Few-shot Classification Fine-tuning
 
 - **Centralized (Federated):**
-  - Entry point: `main_cen_sft_finetune.py`
-  - Script: `training_scripts/run_cen_sft_finetune.sh`
+  - Entry point: `main_cen_sft_classification_llama.py`
+  - Script: `training_scripts/run_cen_sft_classification_llama.sh`
 
 - **Decentralized:**
-  - Entry point: `main_dec_sft_finetune.py`
-  - Script: `training_scripts/run_dec_sft_finetune.sh`
+  - Entry point: `main_dec_sft_classification_llama.py`
+  - Script: `training_scripts/run_dec_sft_classification_llama.sh`
 
 ---
 
